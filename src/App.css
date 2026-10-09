@@ -11,9 +11,10 @@ main {
   width: 100%;
   min-height: calc(100vh - 70px);
 
-  display: flex;
+  
   justify-content: center;
   align-items: center;
+  display: flex;
 
   text-align: center;
 
@@ -23,7 +24,7 @@ main {
 .hero-content {
   width: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .hello {
@@ -113,6 +114,7 @@ main {
 .nav-links a:hover {
   color: white;
 }
+
 /* About Section */
 
 .about {
@@ -1058,4 +1060,59 @@ main {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #475569;
+}
+
+/* Desktop layout */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  /* Image appears first */
+  .hero-image {
+    order: 1;
+    width: 100%;
+  }
+
+  /* Text moves below the image */
+  .hero-content {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
 }

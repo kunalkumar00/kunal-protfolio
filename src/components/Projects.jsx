@@ -23,6 +23,7 @@ function Projects() {
         "REST API",
         "SQL",
         "React.js",
+        "JWT"
       ],
       github: "https://github.com/kunalkumar00/Product-Management-System",
     },

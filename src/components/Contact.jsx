@@ -25,6 +25,10 @@ function Contact() {
           </div>
 
           <div className="contact-info">
+            <div className="contact-item">
+              <h4>Phone No.</h4>
+              <p><a href="#">+91 6396239976</a></p>
+            </div>
 
             <div className="contact-item">
               <h4>Email</h4>

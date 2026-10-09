@@ -13,8 +13,8 @@ function Skills() {
       technologies: ["PostgreSQL", "MySQL", "SQLAlchemy"],
     },
     {
-      category: "AI / ML",
-      technologies: ["Machine Learning", "OpenCV", "NumPy", "Pandas"],
+      category: "Python Library",
+      technologies: ["NumPy", "Pandas"],
     },
     {
       category: "Frontend",
@@ -22,7 +22,7 @@ function Skills() {
     },
     {
       category: "Tools",
-      technologies: ["Git", "GitHub", "VS Code", "Docker"],
+      technologies: ["Git", "GitHub", "VS Code", "Pycharm", "MySQL Workbench", "pgAdmin"],
     },
   ];
 

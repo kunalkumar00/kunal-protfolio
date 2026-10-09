@@ -34,17 +34,17 @@ function About() {
           <div className="about-info">
             <div className="info-box">
               <h4>Backend</h4>
-              <p>Python & FastAPI</p>
+              <p>Python, FastAPI & Django</p>
             </div>
 
             <div className="info-box">
               <h4>Database</h4>
-              <p>PostgreSQL & SQL</p>
+              <p>PostgreSQL & MySQL</p>
             </div>
 
             <div className="info-box">
-              <h4>AI / ML</h4>
-              <p>Python & OpenCV</p>
+              <h4>Frontend</h4>
+              <p>Html, Css, JavaScript, Bootstrap & React</p>
             </div>
 
             <div className="info-box">
