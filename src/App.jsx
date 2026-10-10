@@ -49,7 +49,7 @@ function App() {
 
             <div className="hero-image">
               <img
-                src="IMG_0256.jpg"
+                src="Kunal.png"
                 alt=""
               />
             </div>
